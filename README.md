@@ -1,13 +1,13 @@
 # Ankit-Sharma_Frontend
 
-Answer 1).
-
+                                                     (Answer 1)
+                                                     
 A simple List component is a commonly used user interface (UI) element that allows for the display and manipulation of a collection of items in a linear, vertical, and horizontal layout. It typically presents a scrollable view of items.
 
 The main purpose of the simple List component is to provide an organized and easily navigable way to present a collection of data to users. 
 It often includes features such as sorting, filtering, and selection allowing users to interact with data and perform actions on the items, such as editing, deleting, or rearranging them.
 
-Answer 2).
+                                                       (Answer 2)
 
 The code provided is a simple List component implemented in React, with some issues and warnings that can be addressed for optimization and correctness. Here are the problems and suggestions for improvement:
 
@@ -21,7 +21,7 @@ WrappedListComponent.propTypes = {
  })),
 };
 
-                        Here's the corrected prop type definition for items:
+           Here's the corrected prop type definition for items:
 
 WrappedListComponent.propTypes = {
    items: PropTypes.arrayOf(PropTypes.shape({
@@ -77,7 +77,7 @@ Optimized method:
 />
 
 
-Answer 3:
+                                                               (Answer 3)
 
 Here is the modified and optimized code:
 The modified code uses correct PropTypes, useState, and onClickHandler usage, and adds a key prop to the mapped components to ensure correct rendering.
