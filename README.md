@@ -77,7 +77,7 @@ Optimized method:
 />
 
 
-                                                               (Answer 3)
+                                                         (Answer 3)
 
 Here is the modified and optimized code:
 The modified code uses correct PropTypes, useState, and onClickHandler usage, and adds a key prop to the mapped components to ensure correct rendering.
